@@ -9,7 +9,7 @@ https://www.linkedin.com/in/jsiddiqui85/<br />
 
 # Overview
 
-This project uses classification to model and predict the state of water wells in the African nation of Tanzania.  The purpose for the predictive model is to assist the goverment officials at **The Tanzania Commission for Water** to find water wells that are **not functioning at all** or that are **functioning but require repair** for the agency to contract out the work that is needed to bring these water wells up to functioning level.  
+This project uses classification to model and predict the state of water wells in the African nation of Tanzania.  The purpose for the predictive model is to assist the goverment officials at **The Tanzania Commission for Water** to find water wells that are **not functioning at all** or that are **functioning but require minor/major repairs** so the agency can sub-contract the work out to bring these water wells up to functioning level.  
 
 I have used a curated data set found on **DrivenData.com** to run my predictive models against.  Prior to cleaning the data, this dataset contained over 60k rows along with 30+ features.  
 
@@ -46,7 +46,22 @@ I took an iterative approach to model building, trying to improve on my previous
 
 # Final Model
 
+For my final model, I created another pipeline using GridSearch to try and determine the best parameters for my RandomForest model above since it performed the best. Unfortunately, the best parameters that were suggested by the GridSearch did not improve my RandomForest model at all.  In fact, after running another RandomForest model with the new parameters, I received the same accuracy score as above of .889.
+
+# Conclusions
+
+I would like **The Tanzania Commission of Water** agency to focus on two main aspects when trying to determine which water wells will need to be repaired in order to maintain functionality and provide the Tanzanian residents with safe drinking water.  These two recommendations are to focus their efforts on water wells that are completely non-functional wells and also wells that are classified as functional but they require important repairs to remain functional.  By focus your efforts on these two classifications of wells, you can ensure that your country will remain on top of the health and safety issues regarding the water that is being distributed to their residents.
+
+# Suggested Further Exploration
+
+To further refine water well repair predictions, I am recomminding to look deeper into the regions where the water wells that need to be repaired are located.  In addition, I strongly recommend conducting a deeper dive into which specific parts of a particular water well need to be repaired so it can be considered functional again.
 
 
-
-# Results
+## Repository Structure
+```
+├── data
+├── images
+├── README.md
+├── LICENSE
+├── Tanzania Wells Presentation.pdf
+└── Final_Tanzania_Wells_Notebook.ipynb
