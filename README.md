@@ -3,7 +3,7 @@
 <img src= "https://github.com/jsiddiqui85/Phase-3-Tanzania_Water_Wells_Analysis/blob/main/images/Tanzania_Pano.jpg">
 <br />
 <br />
-**Author:**<br />
+**Author:** <br />
 Jawwad A. Siddiqui<br />
 Data Scientist<br />
 https://github.com/jsiddiqui85<br />
