@@ -1,6 +1,6 @@
 # Tanzania Water Wells (Classification Models)
 <br />
-![img](./images/Tanzania_Pano.png)
+![img](./images/Tanzania_Pano.jpg)
 <br />
 **Author:**<br />
 Jawwad A. Siddiqui<br />
