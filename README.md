@@ -48,7 +48,7 @@ I took an iterative approach to model building, trying to improve on my previous
 - `Baseline Accuracy Score:` `.542`
 2. `LogisticRegression:` this model was created using the default parameters simply to compare results for further modeling
 - `Accuracy Score:` `.786`
-3. `RandomForest:` an ensemble this model was created next because it outputs the class that is selected by the most trees, while correcting overfitting to the training set
+3. `RandomForest:`  this is an ensemble model and was created next because it outputs the class that is selected by the most trees, while correcting overfitting to the training set
 - `Accuracy Score:` `.889`
 4. `XGBoost:` this model was chosen due to its relative speed and performance when compared to the other models above - due to time constraints, this model was chosen to ensure I could meet the requirements of the project while delivering another accuracy score
 - `Accuracy Score:` `.791`
