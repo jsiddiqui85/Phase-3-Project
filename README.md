@@ -12,16 +12,16 @@ https://www.linkedin.com/in/jsiddiqui85/<br />
 
 # Overview
 
-This project uses classification to model and predict the state of water wells in the African nation of Tanzania.  The purpose for the predictive model is to assist the goverment officials at `The Tanzania Commission for Water` to find water wells that are `not functioning at all` or that are `functioning but require minor/major repairs` so the agency can sub-contract the work out to bring these water wells up to functioning level.  
+This project uses classification to model and predict the state of water wells in the African nation of Tanzania.  The purpose for the predictive model is to assist the government officials at `The Tanzania Commission for Water` to find water wells that are `not functioning at all` or that are `functioning but require minor/major repairs` so the agency can subcontract the work out to bring these water wells up to functioning level.  
 
 I have used a curated data set found on `DrivenData.com` to run my predictive models against.  Prior to cleaning the data, this dataset contained over `60k rows` along with `30+ features`.  
 
 
 # Business Understanding
-`The Tanzania Commission for Water` is a federal agency in the African State of Tanzania primarily responsible for the cleaniness and safety of the water that is supplied to the general public and residents of Tanzania.  
+`The Tanzania Commission for Water` is a federal agency in the African State of Tanzania primarily responsible for the cleanliness and safety of the water that is supplied to the general public and residents of Tanzania.  
 
-Currently, Tanzania lacks the ability to provide a safe source of drinking water to over `50% of their population`.  Although, there have been many attempts to correct this issue over the years, so far all of those attempts have fallen short of their objectives - leaving `45%' of their water wells in need of major repairs`.  
-My goal with this project is to help `The Tanzania Commission for Water` and the director of this agency with identifying which wells need to be repaired currently, while also prediciting on which of these wells will need to be repaired in the future in order to maintain the cleanliness and safety of the water that is supplied to the Tanzania population.  
+Currently, Tanzania lacks the ability to provide a safe source of drinking water to over `50% of their population`.  Although there have been many attempts to correct this issue over the years, so far all of those attempts have fallen short of their objectives - leaving `45% of their water wells in need of major repairs`.  
+My goal with this project is to help `The Tanzania Commission for Water` and the director of this agency with identifying which wells need to be repaired currently, while also predicting on which of these wells will need to be repaired in the future in order to maintain the cleanliness and safety of the water that is supplied to the Tanzania population.  
 
 
 # Data
@@ -29,7 +29,7 @@ My model and recommendations come from work done on the `Tanzanian Water Wells` 
 
 
 # Methods
-The target variable that I am making classification models to predict on is `status_group`.  I created a new column named `status_class` to transform the `status_group` column into a classification variable, specifically creating a multi-class target that includes: `non functional: 0`, `functional needs repair: 1`, and `functional: 2`.
+The target variable that I am making classification models to predict on is `status_group`.  I created a new column named `status_class` to transform the `status_group` column into a classification variable, specifically creating a multi-class target that includes: `non-functional: 0`, `functional needs repair: 1`, and `functional: 2`.
 
 
 # Review Current Status of Water Wells
@@ -38,12 +38,12 @@ The target variable that I am making classification models to predict on is `sta
 
 The bar chart above shows the current status of the Tanzanian water wells.  
 
-There are a total of `59,500 wells` - with `32,259` of the water wells that are `fully functioning`, among these include `22,824` of the wells that are `completely non functioning`, and `4,317` of total wells that `need to be repaired` to be considered functioning.
+There are a total of `59,500 wells` - with `32,259` of the water wells that are `fully functioning`, among these include `22,824` of the wells that are `completely non-functioning`, and `4,317` of total wells that `need to be repaired` to be considered functioning.
 
 
 # Classification Models & Accuracy Scores
 
-I concluded that in order to predict which water wells will need to be repaired to be deemed functional in the future, I will need to determine how accurately my model is perdicting.  Therefore, I have resorted to using the `accuracy score` for all of the models explained below.
+I concluded that in order to predict which water wells will need to be repaired to be deemed functional in the future, I will need to determine how accurately my model is predicting.  Therefore, I have resorted to using the `accuracy score` for all of the models explained below.
 
 I took an iterative approach to model building, trying to improve on my previous model accuracy score with each iteration.  I also leveraged pipelines to reduce data leakage with each model.
 
@@ -66,7 +66,7 @@ I would like `The Tanzania Commission of Water` agency to focus on two main aspe
 
 # Suggested Further Exploration
 
-To further refine water well repair predictions, I am recomminding to look deeper into the regions where the water wells that need to be repaired are located.  In addition, I strongly recommend conducting a deeper dive into which specific parts of a particular water well need to be repaired so it can be considered functional again.
+To further refine water well repair predictions, I am recommending looking deeper into the regions where the water wells that need to be repaired are located.  In addition, I strongly recommend conducting a deeper dive into which specific parts of a particular water well need to be repaired so it can be considered functional again.
 
 
 ## Repository Structure
