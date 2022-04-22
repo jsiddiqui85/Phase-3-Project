@@ -29,15 +29,24 @@ My model and recommendations come from work done on the Tanzanian Water Wells da
 The target variable that I am making classification models to predict on is 'status_group'.  I created a new column named 'status_class' to transform the 'status_group' column into a classification variable, specifically creating a multi-class target that includes: 'non functional: 0', 'functional needs repair: 1', and 'functional: 2'.
 
 
-# Classification Models
+# Classification Models & Accuracy Scores
 
 I determined that in order to predict which water wells will need to be repaired to be deemed functional in the future, that I would need to utilize how accurately my model is performing.  Therefore, I have resorted to using the accuracy score for all of the models explained below.
 
 I took an iterative approach to model building, trying to improve on my previous model accuracy score with each iteration.  I also leveraged pipelines to reduce data leakage with each model.
 
 1. DummyClassifier: this model was created to compare my accuracy scores 
+- **Baseline Accuracy Score:** .542
 2. LogisticRegression: this model was created using the default parameters simply to compare results for further modeling
+- **Accuracy Score:** .786
 3. RandomForest: an ensemble this model was created next because it outputs the class that is selected by the most trees, while correcting overfitting to the training set
+- **Accuracy Score:** .889
 4. XGBoost: this model was chosen due to its relative speed and performance when compared to the other models above - due to time constraints, this model was chosen to ensure I could meet the requirements of the project while delivering another accuracy score
+- **Accuracy Score:** .791
+
+# Final Model
+
+
+
 
 # Results
